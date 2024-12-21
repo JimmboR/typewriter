@@ -5,26 +5,28 @@
 <link rel="icon" type="image/x-icon" href="hipster_typewriter-document-journalist-512.webp">
 </head>
 <style>
-.word {
- position: absolute;
- font-family: "courier";
-}
-.pap{
+textarea {
  position: relative;
  top: 20px;
  left: 50%;
  transform: translate(-50%, 0%);
- z-index: -1;
  background-color: #ecd9ab;
  width: 510px;
  height: 660px;
+ font-family: "courrier";
+ font-size: 12;
+ border:0;
+ resize: none;
+ margin-bottom: 30px;
+}
+textarea {
+outline: none;
 }
 body {
  background-color: #abcff5 ;
 }
 </style>
 <body>
-<div class="pap"><div class="word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
-
+<textarea enabled></textarea>
 </body>
 </html>
